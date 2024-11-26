@@ -1,0 +1,101 @@
+/* Container Styling */
+.register-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #fffaf0, #f7efe5); /* גווני שמנת */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title Styling */
+  .register-title {
+    font-size: 2rem;
+    color: #b48b60; /* גוון זהב עדין */
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+  
+  /* Error Styling */
+  .register-error {
+    color: #ff4d4d;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Form Styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Input Styling */
+  .register-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #b48b60;
+    box-shadow: 0 0 8px rgba(180, 139, 96, 0.3);
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .register-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(120deg, #b48b60, #d4aa73); /* גווני זהב */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(180, 139, 96, 0.2);
+  }
+  
+  .register-button:hover {
+    background: linear-gradient(120deg, #99724b, #b48b60);
+    transform: translateY(-2px);
+  }
+  
+  .register-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Back Button Styling */
+  .back-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b48b60;
+    background: transparent;
+    border: 2px solid #b48b60;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background: #b48b60;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,106 @@
+/* Container Styling */
+.dashboard-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #fffaf0, #f7efe5); /* גווני שמנת */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Title Styling */
+  .dashboard-title {
+    font-size: 2rem;
+    color: #b48b60; /* גוון זהב */
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+  }
+  
+  /* Description Styling */
+  .dashboard-description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Buttons Container */
+  .dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* רווח בין הכפתורים */
+    margin-bottom: 30px;
+  }
+  
+  /* Button Styling */
+  .dashboard-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px; /* כפתור רחב יותר */
+    height: 220px; /* גובה מותאם לתמונה הגדולה */
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(120deg, #b48b60, #d4aa73); /* גווני זהב */
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(180, 139, 96, 0.2);
+    text-align: center;
+  }
+  
+  .dashboard-button:hover {
+    background: linear-gradient(120deg, #99724b, #b48b60);
+    transform: translateY(-2px);
+  }
+  
+  .dashboard-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Icon Styling */
+  .button-icon-large {
+    width: 150px; /* גודל התמונה */
+    height: 150px; /* גובה התמונה */
+    margin-bottom: 10px;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #b48b60;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(180, 139, 96, 0.2);
+  }
+  
+  .logout-button:hover {
+    background: #99724b;
+  }
+  
+  .logout-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Loading Message */
+  .dashboard-loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b48b60;
+    font-family: 'Poppins', sans-serif;
+  }
+  
